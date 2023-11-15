@@ -55,8 +55,10 @@ livro.anoPublicacao = 1892;
 Livro.Imprimir();
 ``` 
 # Exemplo 3
-***C++***
 
+***C++***
+>Classe `Circulo`:
+```
 class Circulo {
   public:
     int raio;
@@ -102,3 +104,31 @@ estudante.idade = 20;
 estudante.nota = 8.5;
 Estudante.Imprimir();
 ``` 
+# Exemplo 5
+***C++***
+
+>Classe `Triangulo`:
+``` 
+class Triangulo {
+public:
+    double base;
+    double altura;
+    double calcularArea() {
+        return 0.5 * base * altura;
+    }
+};
+
+```
+>Objeto `Triangulo:` 
+
+``` 
+Triangulo triangulo;
+triangulo.base = 8;
+triangulo.altura = 5;
+cout << triangulo.calcularArea() << endl;
+``` 
+<hr>
+
+
+
+ 
