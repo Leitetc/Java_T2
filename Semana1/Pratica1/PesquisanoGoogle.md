@@ -8,7 +8,7 @@ A diferença entre uma classe e um objeto é que a classe é um modelo, enquanto
 
 ***C++***
 
->Classe `Circulo`:
+>Classe `Retangulo`:
 ``` 
 class Retangulo {
 public:
@@ -23,13 +23,35 @@ public:
 
 ``` 
 Retangulo retangulo;
-
 retangulo.comprimento = 5;
 retangulo.largura = 3;
 cout << retangulo.calcularArea() << endl;
 ``` 
-___________________________________________
+
 # Exemplo 2 
-# Exemplo 3 
-# Exemplo 4 
-# Exemplo 5
+***C++***
+
+>Classe `Livro`:
+``` 
+class Livro {
+public:
+    string titulo;
+    string autor;
+    int anoPublicacao;
+     void imprimir() {
+      cout << "titulo: " << titulo << endl;
+      cout << "autor: " << autor << endl;
+      cout << "anoPublicacao: " << anoPublicacao << endl;
+    }
+};
+```
+>Objeto `Livro:` 
+
+``` 
+Livro livro;
+livro.titulo = "Aventuras de Sherlock Holmes";
+livro.autor = "Arthur Conan Doyle";
+livro.anoPublicacao = 1892;
+Livro.Imprimir();
+``` 
+
