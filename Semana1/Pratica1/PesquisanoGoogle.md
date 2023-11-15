@@ -7,8 +7,22 @@ A diferença entre uma classe e um objeto é que a classe é um modelo, enquanto
 # Exemplo 1
 
 
-| Linguagem | Classe         | Objeto    | Propriedades           |
-|-----------|----------------|-----------|------------------------|
-| Java      | `Ponto`        | `ponto1`  | `x = 5`, `y = 10`      |
-| C++       | `class Ponto`  | `ponto1`  | `x = 5`, `y = 10`      |
 
+***C++***
+
+``` 
+class Retangulo {
+public:
+    double comprimento;
+    double largura;
+    double calcularArea() {
+        return comprimento * largura;
+    }
+};
+```
+
+
+# Exemplo 2 
+# Exemplo 3 
+# Exemplo 4 
+# Exemplo 5
