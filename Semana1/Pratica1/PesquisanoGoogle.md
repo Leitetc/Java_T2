@@ -6,10 +6,9 @@ A diferença entre uma classe e um objeto é que a classe é um modelo, enquanto
 
 # Exemplo 1
 
-
-
 ***C++***
 
+>Classe `Circulo`:
 ``` 
 class Retangulo {
 public:
@@ -20,8 +19,16 @@ public:
     }
 };
 ```
+>Objeto `retangulo:` 
 
+``` 
+Retangulo retangulo;
 
+retangulo.comprimento = 5;
+retangulo.largura = 3;
+cout << retangulo.calcularArea() << endl;
+``` 
+___________________________________________
 # Exemplo 2 
 # Exemplo 3 
 # Exemplo 4 
