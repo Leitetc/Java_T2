@@ -76,4 +76,29 @@ circulo.x = 0;
 circulo.y = 0;
 cout << circulo.calcularArea() << endl;
 ``` 
- 
+# Exemplo 4 
+***C++***
+
+>Classe `Estudante`:
+``` 
+class Estudante {
+public:
+    string nome;
+    int idade;
+    double nota;
+};
+    void imprimir() {
+      cout << "noem: " << nome << endl;
+      cout << "idade: " << idade << endl;
+      cout << "nota: " << nota << endl;
+    }
+```
+>Objeto `Estudante:` 
+
+``` 
+Estudante estudante;
+estudante.nome = "João";
+estudante.idade = 20;
+estudante.nota = 8.5;
+Estudante.Imprimir();
+``` 
