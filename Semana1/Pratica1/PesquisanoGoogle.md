@@ -54,4 +54,26 @@ livro.autor = "Arthur Conan Doyle";
 livro.anoPublicacao = 1892;
 Livro.Imprimir();
 ``` 
+# Exemplo 3
+***C++***
 
+class Circulo {
+  public:
+    int raio;
+    double x;
+    double y;
+    double calcularArea() {
+      return 3.14 * raio * raio;
+    }
+};
+```
+>Objeto `Circulo:` 
+
+``` 
+Circulo circulo;
+circulo.raio = 30;
+circulo.x = 0;
+circulo.y = 0;
+cout << circulo.calcularArea() << endl;
+``` 
+ 
